@@ -2,3 +2,4 @@
 
 L1      ----->       Two Sum
 L26     ----->       Remove duplicates form sorted Array
+L27     ----->       Remove element form Array (count not match target value)
