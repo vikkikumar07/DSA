@@ -30,5 +30,8 @@ public class L1 {
 
         // print a result using a function
         System.out.println(Arrays.toString((TwoSum(nums, 12))));
+
+        //OUTPUT 
+        // index[1, 8] == nums[1]+nums[2] == 12
     }
 }

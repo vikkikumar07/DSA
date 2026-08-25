@@ -17,6 +17,9 @@ public class L26 {
         int[] nums = {1, 1, 2};
 
         System.out.println(removeDuplicates(nums));
+        // OUTPUT
+        // unique element in a array 1 & 2
+        // [1, 2] == 2
     }
     
 }
