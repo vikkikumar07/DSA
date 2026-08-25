@@ -1,3 +1,4 @@
 # Question
 
-L1 ----> Two Sum
+L1      ----->       Two Sum
+L26     ----->       Remove duplicates form sorted Array
