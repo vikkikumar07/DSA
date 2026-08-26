@@ -1,4 +1,4 @@
-package DSA.Array.Questions;
+package Array.Questions;
 import java.util.Arrays;
 
 // leetcode q. 1 (TWO SUM)

@@ -1,4 +1,4 @@
-package DSA.Array.Questions;
+package Array.Questions;
 
 public class L26 {
     public static int removeDuplicates(int[] nums) {
