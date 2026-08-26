@@ -1,0 +1,3 @@
+# Maths 
+
+L9      -----> isPalindrome (not use string only math use)
