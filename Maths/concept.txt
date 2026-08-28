@@ -1,0 +1,26 @@
+# Maths
+
+number = 145
+
+% :---   (for find last digit then use concept) 
+number % 10 = 140+5 = remender = 5 
+
+
+/ :---  (for remove last digit then use concept) 
+number / 10 = 14.5 = chnage type but int store value always integer valuen (14) 
+
+
+REVERSE Number :----
+
+reverse = reverse * 10 + digit; 
+
+ex:- reverse = 0, 0 * 10 + 5 (than use find last digit)
+     reverse = 5
+     reverse = 5 * 10 + 4 (then second last digit)
+     reverse = 54
+     reverse = 54*10 + 1 (than last digit )
+     reverse = 541 
+
+     (always last digit ko 10 se multiply kr add kro)
+
+#
