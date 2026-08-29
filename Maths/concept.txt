@@ -23,4 +23,27 @@ ex:- reverse = 0, 0 * 10 + 5 (than use find last digit)
 
      (always last digit ko 10 se multiply kr add kro)
 
-#
+
+#POWER Of TWO (2^4 = 64 = true)
+concept :- 
+     {
+          step 1 : cheak a number less than 0 or equal to 0 {n < = 0} return false
+               Why:- any power of 2 != 0 || 0 > -1 (not negative)
+
+          step 2 : {
+               2^n = bit always only 1 time present in bits (ex:- 1000 = 8, 0010 = 2)
+                    so,( n & (n-1)) == 0 ans : true
+                    
+                    { ex:- n = 8; 2^3
+                         8 = 1000, (8-1) = 7 = 0111
+                         so, &
+                         1000 & 0111 = 0  
+
+                         ex:- n = 7;    
+                         7 = 111, (7-1) = 6 = 110
+                         so, &
+                         111 & 110 = 110 != 0         
+                    }
+          }
+
+     }
