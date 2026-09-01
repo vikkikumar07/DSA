@@ -8,7 +8,10 @@ number % 10 = 140+5 = remender = 5
 
 / :---  (for remove last digit then use concept) 
 number / 10 = 14.5 = chnage type but int store value always integer valuen (14) 
-
+{    
+     // base math operation
+     L7 || L69 || L1281 || L2119
+}
 
 REVERSE Number :----
 
@@ -23,6 +26,10 @@ ex:- reverse = 0, 0 * 10 + 5 (than use find last digit)
 
      (always last digit ko 10 se multiply kr add kro)
 
+{
+     // base of reverse question
+     L7 || L9 || L2119 || L2119
+}
 
 #POWER Of TWO (2^4 = 64 = true)
 concept :- 
@@ -47,3 +54,21 @@ concept :-
           }
 
      }
+{    
+     // base of root
+     L231 || 
+}
+
+# NEWTON's METHOD        (for use squar root calculat)
+let x = 10;
+n = (n + x/n)/2
+
+{
+     n = x;
+     // while loop n *n less than x;
+     n = 10 => (10+10/10)/2 => 5 => (5+10/5)/2 => 3 
+}
+{
+     //base of newton's method
+     L69 || 
+}
