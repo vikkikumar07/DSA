@@ -4,5 +4,6 @@ L7      ----->      Reverse Integer
 L9      ----->      isPalindrome (not use string only math use)
 L69     ----->      squareRoot 
 L231    ------>     Power of two
+L263    ------>     ugly number
 L1281   ------>     subtract sum and product integer digit
 L2119   ------>     A number affter a double reverse
