@@ -72,3 +72,20 @@ n = (n + x/n)/2
      //base of newton's method
      L69 || 
 }
+
+# UGLY number
+{
+     always divide by 2, 3, 5 => when get 1 than it's ugly number 
+     ex :- let n = 6 => 2 * 3 => its ugly number
+
+     not divide number 2, 3, 5 => not ugly number 
+     ex :- n = 7 => 7 * 1 => not ugly number.
+          n = 14 => 7 * 2 => not ugle number.
+
+     concept ::=> only divide by 2, 3, 5 but any number include 
+                    to divide than not ugly number.
+}
+{
+     // base of question
+     L263
+}
