@@ -8,6 +8,7 @@ L189    ------>     rotate Array
 L231    ------>     Power of two
 L263    ------>     ugly number
 L326    ------>     Power of three
+L371    ------>     Sum of two integer
 L1281   ------>     subtract sum and product integer digit
 L2119   ------>     A number affter a double reverse
 L2235   ------>     Sum two intiger
