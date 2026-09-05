@@ -6,6 +6,7 @@ L50     ------>     pow(x, n);
 L69     ----->      squareRoot 
 L189    ------>     rotate Array
 L231    ------>     Power of two
+L258    ------>     Add Digits
 L263    ------>     ugly number
 L326    ------>     Power of three
 L371    ------>     Sum of two integer
