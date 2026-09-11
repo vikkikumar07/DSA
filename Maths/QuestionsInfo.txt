@@ -10,6 +10,7 @@ L258    ------>     Add Digits
 L263    ------>     ugly number
 L326    ------>     Power of three
 L371    ------>     Sum of two integer
+L504    ------>     Base 7
 L509    ------>     Fibonacci Number
 L633    ------>     sum of square number
 L1281   ------>     subtract sum and product integer digit
