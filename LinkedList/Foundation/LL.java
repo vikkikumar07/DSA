@@ -69,7 +69,21 @@ public class LL {
 
         newNode.next = temp.next;
         temp.next = newNode;
+    }
 
+    // remove frist
+    public void removeFrist() {
+        // check lsit Empty
+        if (head == null) {
+            return;
+        }
+        // check only one Node
+        if (head.next == null) {
+            head = null;
+        }
+
+        // remove
+        head = head.next;
     }
 
     // display
@@ -104,6 +118,9 @@ public class LL {
 
         // add position
         list.add(9, 5);
+
+        // remove frist Node
+        list.removeFrist();
 
         // display call function
         list.display();
