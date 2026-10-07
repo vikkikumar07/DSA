@@ -86,6 +86,22 @@ public class LL {
         head = head.next;
     }
 
+    // remove Last Node
+    public void removeLast() {
+        // check Empty Node
+        if (head == null) {
+            return;
+        }
+
+        // found second Last Node
+        Node secondLastNode = head;
+        while (secondLastNode.next.next != null) {
+            secondLastNode = secondLastNode.next;
+        }
+
+        secondLastNode.next = null;
+    }
+
     // display
     public void display() {
         // check empty list
@@ -121,6 +137,9 @@ public class LL {
 
         // remove frist Node
         list.removeFrist();
+
+        // remove last Node
+        list.removeLast();
 
         // display call function
         list.display();
