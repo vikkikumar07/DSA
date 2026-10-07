@@ -6,6 +6,7 @@ public class LL {
         int data;
         Node next;
 
+        // constracter
         Node(int data) {
             this.data = data;
             this.next = null;
@@ -15,7 +16,23 @@ public class LL {
     // head frist time create null
     Node head = null;
 
-    public static void main(String[] args) {
+    // add frist
+    public void addFrist(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        newNode.next = head;
+        head = newNode;
 
+    }
+
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.addFrist(5);
+        list.addFrist(2);
+        list.addFrist(23);
+        list.addFrist(12);
     }
 }
