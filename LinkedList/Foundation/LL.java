@@ -18,7 +18,10 @@ public class LL {
 
     // add frist
     public void addFrist(int data) {
+        // create new Node
         Node newNode = new Node(data);
+
+        // check Empty list
         if (head == null) {
             head = newNode;
             return;
@@ -36,6 +39,7 @@ public class LL {
         if (head == null) {
             return;
         }
+        // create temp Node
         Node secondLastNode = head;
 
         // find second last Node
@@ -51,8 +55,10 @@ public class LL {
         if (head == null) {
             return;
         }
-
+        // create temp Node
         Node temp = head;
+
+        // traveling List
         while (temp != null) {
             System.out.print(temp.data + " ====> ");
             temp = temp.next;
