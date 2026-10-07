@@ -28,8 +28,26 @@ public class LL {
 
     }
 
+    // add Last
+    public void addLast(int data) {
+        Node newNode = new Node(data);
+
+        // check empty list
+        if (head == null) {
+            return;
+        }
+        Node secondLastNode = head;
+
+        // find second last Node
+        while (secondLastNode.next != null) {
+            secondLastNode = secondLastNode.next;
+        }
+        secondLastNode.next = newNode;
+    }
+
     // display
     public void display() {
+        // check empty list
         if (head == null) {
             return;
         }
@@ -39,15 +57,23 @@ public class LL {
             System.out.print(temp.data + " ====> ");
             temp = temp.next;
         }
+        System.out.print("null");
     }
 
     public static void main(String[] args) {
         LL list = new LL();
-        list.addFrist(5);
-        list.addFrist(2);
-        list.addFrist(23);
-        list.addFrist(12);
 
+        // add frist call function
+        list.addFrist(4);
+        list.addFrist(3);
+        list.addFrist(2);
+        list.addFrist(1);
+
+        // add list call function
+        list.addLast(5);
+        list.addLast(6);
+
+        // display call function
         list.display();
     }
 }
