@@ -102,6 +102,23 @@ public class LL {
         secondLastNode.next = null;
     }
 
+    // remove position Node
+    public void remove(int pos) {
+        if (head == null) {
+            return;
+        }
+        if (pos == 0) {
+            removeFrist();
+            return;
+        }
+
+        Node temp = head;
+        for (int i = 0; i < pos - 2 && temp != null; i++) {
+            temp = temp.next;
+        }
+        temp.next = temp.next.next;
+    }
+
     // display
     public void display() {
         // check empty list
@@ -140,6 +157,9 @@ public class LL {
 
         // remove last Node
         list.removeLast();
+
+        // remove position Node
+        list.remove(2);
 
         // display call function
         list.display();
