@@ -49,6 +49,29 @@ public class LL {
         secondLastNode.next = newNode;
     }
 
+    // add position
+    public void add(int data, int pos) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            return;
+        }
+        // add frist position
+        if (pos == 0) {
+            addFrist(data);
+            return;
+        }
+
+        // find position before Node
+        Node temp = head;
+        for (int i = 0; i < pos - 2 && temp != null; i++) {
+            temp = temp.next;
+        }
+
+        newNode.next = temp.next;
+        temp.next = newNode;
+
+    }
+
     // display
     public void display() {
         // check empty list
@@ -78,6 +101,9 @@ public class LL {
         // add list call function
         list.addLast(5);
         list.addLast(6);
+
+        // add position
+        list.add(9, 5);
 
         // display call function
         list.display();
